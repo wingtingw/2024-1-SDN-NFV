@@ -1,0 +1,11 @@
+FROM onosproject/onos:2.7.0
+LABEL name="onos" \
+      version="2.7.0" \
+      description="ONOS 2.7.0"
+
+# ENV ONOS_APPS=drivers,fpm,fwd,org.onosproject.openflow
+
+# EXPOSE 2620
+# EXPOSE 6653
+# EXPOSE 8101
+# EXPOSE 8181
